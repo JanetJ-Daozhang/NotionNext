@@ -23,7 +23,7 @@ export async function getServerSideProps(context) {
 	const randomPost = posts[randomIndex]
 
 	// 文章路径，假设为 /post/[slug]，可根据你的路由实际调整
-	const destination = `/post/${randomPost.slug || randomPost.id}`
+	const destination = `/${randomPost.slug || randomPost.id}`
 
 	return {
 		redirect: {
