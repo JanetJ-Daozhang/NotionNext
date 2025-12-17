@@ -151,12 +151,6 @@ const SocialButton = () => {
             /*className='flex justify-center items-center'*/
             href={CONTACT_NEKOBOX}>
             <i className='transform hover:scale-125 duration-150 fab fa-cat dark:hover:text-green-400 hover:text-green-600' />  
-            /* {eslint-disable-next-line @next/next/no-img-element }
-            <img
-              className='transform hover:scale-125 duration-150 w-6'
-              src='/svg/nekobox'/svg
-              alt='提问箱'
-            />{' '}*/
           </a>
         )}
         {CONTACT_WEHCHAT_PUBLIC && (
