@@ -150,7 +150,7 @@ const SocialButton = () => {
             title={'提问箱'}
             /*className='flex justify-center items-center'*/
             href={CONTACT_NEKOBOX}>
-            <i className='transform hover:scale-125 duration-150 fab fa-cat dark:hover:text-green-400 hover:text-green-600' />  
+            <i className='transform hover:scale-125 duration-150 fas fa-cat dark:hover:text-green-400 hover:text-green-600' />  
           </a>
         )}
         {CONTACT_WEHCHAT_PUBLIC && (
