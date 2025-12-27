@@ -22,7 +22,7 @@ const SocialButton = () => {
   const CONTACT_YOUTUBE = siteConfig('CONTACT_YOUTUBE')
 
   const CONTACT_XIAOHONGSHU = siteConfig('CONTACT_XIAOHONGSHU')
-  const CONTACT_ZHISHIXINGQIU = siteConfig('CONTACT_ZHISHIXINGQIU')
+  const CONTACT_NEKOBOX = siteConfig('CONTACT_NEKOBOX')
   const CONTACT_WEHCHAT_PUBLIC = siteConfig('CONTACT_WEHCHAT_PUBLIC')
 
   const [qrCodeShow, setQrCodeShow] = useState(false)
@@ -143,18 +143,14 @@ const SocialButton = () => {
             />
           </a>
         )}
-        {CONTACT_ZHISHIXINGQIU && (
+        {CONTACT_NEKOBOX && (
           <a
             target='_blank'
             rel='noreferrer'
-            title={'知识星球'}
-            href={CONTACT_ZHISHIXINGQIU}>
-            {/* eslint-disable-next-line @next/next/no-img-element */}
-            <img
-              className='transform hover:scale-125 duration-150 w-6'
-              src='/svg/zhishixingqiu.svg'
-              alt='知识星球'
-            />{' '}
+            title={'提问箱'}
+            /*className='flex justify-center items-center'*/
+            href={CONTACT_NEKOBOX}>
+            <i className='transform hover:scale-125 duration-150 fas fa-cat dark:hover:text-blue-400 hover:text-purple-200' />  
           </a>
         )}
         {CONTACT_WEHCHAT_PUBLIC && (
