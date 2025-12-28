@@ -23,7 +23,7 @@ export default function ButtonRandomPostMini(props) {
       title={locale.MENU.WALK_AROUND}
       className='flex space-x-1 items-center justify-center transform hover:scale-105 duration-200 w-7 h-7 text-center'
       onClick={handleClick}>
-      <i className='fa-solid fa-podcast'></i>
+      <i className='fa-light fa-dice-d20'></i>
     </div>
   )
 }
