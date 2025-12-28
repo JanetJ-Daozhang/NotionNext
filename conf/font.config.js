@@ -22,7 +22,7 @@ module.exports = {
   FONT_SUBSET: process.env.NEXT_PUBLIC_FONT_SUBSET || 'chinese-simplified',
   // 无衬线字体 例如'"LXGW WenKai"'
   FONT_SANS: [
-    '"MaoKen TangYuan"'
+    '"MaoKen TangYuan"',
     // '"LXGW WenKai"',
     '"PingFang SC"',
     '-apple-system',
